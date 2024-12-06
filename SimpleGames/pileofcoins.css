@@ -1,0 +1,82 @@
+#tombolBalik{
+    width: 100px;
+    height: 50px;
+    border-style:inherit;
+    border-width: 5px;
+    background-color:cornflowerblue;
+    color: white;
+    font-family: Montserrat;
+    font-style: inherit;
+    font-size: 1.2em;
+    cursor: pointer;
+
+    transition: box-hadow 0.75s;
+    transition: background-color 0.75s;
+}
+#tombolBalik:hover{
+    background-color:blue;
+    box-shadow: 0 0 20px blue;
+}
+.judul{
+    width: fit-content;
+    margin: auto;
+    display: flex;
+
+    font-family: "Press Start 2P";
+    font-size: 3em;
+    text-shadow: 1px 1px white;
+    color:cornflowerblue;
+}
+.judul span:nth-child(n){
+    transition: text-shadow 0.5s;
+    transition: color 0.5s;
+}
+.judul span:nth-child(n):hover{
+    color: white;
+    text-shadow: 0px 0px 7px white;
+    font-size: 1.1em;
+}
+#subjectContainer{
+    width: fit-content;
+    margin: auto;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.tulisan{
+    color: white;
+    font-family: "Press Start 2P";
+}
+.angka{
+    color: gold;
+    text-shadow: 0px 0px 7px gold;
+    font-family: Helvetica;
+    font-size: 5em;
+}
+.tombol{
+    width: 250px;
+    height: 50px;
+    border-style:inherit;
+    border-width: 5px;
+    background-color:cornflowerblue;
+    color: white;
+    font-family: Montserrat;
+    font-style: inherit;
+    font-size: 1.2em;
+    cursor: pointer;
+
+    transition: box-hadow 0.75s;
+    transition: background-color 0.75s;
+}
+.tombol:hover{
+    background-color:blue;
+    box-shadow: 0 0 20px blue;
+}
+
+body{
+    background-image: url(decoration/bgcoins.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
